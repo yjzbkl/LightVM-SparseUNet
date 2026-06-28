@@ -1,0 +1,5 @@
+change,Params,FLOPs_G_paper_MACs,passed
+initial complete implementation with grouped transition4,83141,0.167962,no
+group decoder 64-channel pointwise projection by 2,81093,0.161539,yes
+count decoder bilinear upsample and group 16/32 decoder pointwise by 2,80453,0.161138,yes
+lighter high-channel decoder projection plus d_state5 and SSSA residual gamma,80765,0.160865,yes
